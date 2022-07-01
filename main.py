@@ -3,7 +3,7 @@ import cv2
 from tkinter.filedialog import askopenfilename
 import datetime as dt
 img = cv2.imread(askopenfilename(), 0)
-current_dt = dt.datetime.now().strftime('%d-%m-%Y %I-%M-%S')
+current_dt = dt.datetime.now().strftime('%d-%m-%Y %I-%M-%S')   # this line is used to the img name in the format of date and time.
 file_name = current_dt + '.jpg'
 cv2.imwrite(file_name, img)
 
