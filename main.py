@@ -1,4 +1,4 @@
-# converting coloured image to gray scale image(black and white) using Open CV!!
+# converting coloured image to gray scale image(black and white) using Open CV library!!!
 import cv2
 from tkinter.filedialog import askopenfilename
 import datetime as dt
